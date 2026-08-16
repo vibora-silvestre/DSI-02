@@ -1,0 +1,23 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form id="form1" name="form1" method="post" action="PHP_FORMULARIO.php">
+        <br>
+        Nome completo: <input name="nome" type="text" id="nome" placeholder="Digitar Nome com apenas letrar e espaços" pattern="[A-Za-zÀ-ÿ\s]+" required><br>
+        Idade:<input name="idade" type="text" id="idade" placeholder="Ex.: 18" required><br>
+        Profissão:<input name="profissao" type="text" id="profissao" placeholder="Ex: Professor"required><br>
+        Salário:<input name="salario" type="text" id="salario" placeholder="Ex: 1000" required><br>
+        Experiência: <textarea name="exp" type="text"  rows="5" id="exp" placeholder="Ex. 02 anos trabalhando como caixa em mercados." maxlength="1500"required> </textarea><br>
+        <br><br>
+        <input name="Enviar" type="submit" id="enviar" value="enviar">
+    </form>
+</body>
+
+</html>
